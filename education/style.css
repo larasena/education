@@ -1,0 +1,323 @@
+body {
+  margin: 0px;
+  background: #030044;
+}
+
+.header {
+  background: #867ae9;
+  height: 100px;
+  max-width: 980px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: auto;
+  margin-top: 40px;
+}
+.header img {
+  max-width: 50px;
+  margin: 30px 20px 20px 60px;
+}
+.header ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+}
+.header ul li a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+.header ul li a:hover {
+  text-decoration: none;
+  color: #fff5ab;
+}
+.login {
+  align-items: center;
+  padding: 40px;
+  text-decoration: none;
+  color: #030044;
+}
+.login:hover {
+  color: #fff5ab;
+}
+.login a {
+  align-items: center;
+  padding: 40px;
+}
+
+.criancas {
+  max-width: 980px;
+  margin: auto;
+  background: #867ae9;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  align-items: center;
+  height: 240px;
+}
+.criancas p {
+  text-align: right;
+  color: #fbfbfb;
+  margin-bottom: 280px;
+  font-size: 18px;
+}
+
+.criancas img {
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 2px solid #5960ab;
+  padding: 10px;
+  height: 400px;
+  width: 280px;
+  position: relative;
+}
+
+.criancas h1 {
+  color: #fbfbfb;
+  margin-bottom: 280px;
+  font-size: 36px;
+}
+
+.estudantes {
+  max-width: 980px;
+  margin: auto;
+  background: #c6ffc1;
+  height: 280px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.estudantes a {
+  font-weight: bold;
+  color: #030044;
+  text-decoration: none;
+  margin: 60px;
+  padding-top: 50px;
+  margin-left: 90px;
+  font-size: 16px;
+}
+.estudantes p {
+  color: #030044;
+  font-size: 16px;
+  width: 400px;
+  margin-top: 70px;
+}
+
+.atividades {
+  background: #867ae9;
+  max-width: 980px;
+  height: 280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.atividades h1 {
+  margin: 0px;
+  color: #fbfbfb;
+  margin: 90px;
+  margin-top: 50px;
+}
+.atividades p {
+  margin-top: -220px;
+  margin-left: 90px;
+  margin-right: 30px;
+  color: #fbfbfb;
+}
+.atividades img {
+  width: 280px;
+  position: relative;
+  margin-top: 180px;
+  margin-right: 90px;
+  border: 2px solid #5960ab;
+  padding: 10px;
+}
+
+.exercicios {
+  background: #c6ffc1;
+  margin: 0 auto;
+  max-width: 980px;
+  height: 350px;
+}
+.exercicios h2 {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 90px;
+  color: #030044;
+}
+.exercicios p {
+  color: #030044;
+  font-size: 16px;
+  padding-left: 90px;
+}
+.exercicios img {
+  width: 350px;
+  height: 200px;
+  border: 2px solid #5960ab;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.professores {
+  background: linear-gradient(to bottom, #867ae9 50%, #c6ffc1 50%);
+  margin: 0 auto;
+  max-width: 980px;
+  height: 540px;
+}
+.professores h1 {
+  margin: 0px 90px;
+  padding-top: 100px;
+  color: #fbfbfb;
+}
+.professores p {
+  font-size: 18px;
+  margin-left: 90px;
+  margin-right: 90px;
+  color: #fbfbfb;
+}
+.fotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 90px;
+}
+.fotos img {
+  width: 200px;
+  float: left;
+}
+
+.campus {
+  background: linear-gradient(to bottom, #867ae9 70%, #c6ffc1 30%);
+  max-width: 980px;
+  margin: 0 auto;
+}
+.campus h1 {
+  margin-top: 0px;
+  padding-top: 30px;
+  margin-left: 90px;
+  color: #fbfbfb;
+}
+.campus p {
+  padding-top: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+  color: #fbfbfb;
+}
+.campus img {
+  width: 200px;
+  border: 2px solid #5960ab;
+  padding: 5px;
+}
+.fotos-campus {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 20px;
+}
+.campus a {
+  color: #030044;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-align: right;
+  margin-right: 90px;
+  padding-bottom: 20px;
+}
+
+.formatura {
+  max-width: 980px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #867ae9 70%, #c6ffc1 30%);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.formatura h1 {
+  margin-top: 0px;
+  color: #fbfbfb;
+  padding-top: 30px;
+  margin-left: 90px;
+}
+.formatura p {
+  color: #fbfbfb;
+  margin-left: 90px;
+  font-size: 18px;
+  margin-right: 150px;
+  margin-top: -220px;
+}
+.formatura img {
+  width: 300px;
+  border: 2px solid #5960ab;
+  padding: 10px;
+  margin-top: 130px;
+  margin-right: 90px;
+}
+.formatura a {
+  color: #030044;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px 80px 10px 0px;
+}
+
+.formulario {
+  background: #867ae9;
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.formulario h1 {
+  margin-top: 0px;
+  color: #fbfbfb;
+  margin-left: 90px;
+  padding-top: 30px;
+}
+.formulario p {
+  color: #fbfbfb;
+  margin-left: 90px;
+}
+.formulario form {
+  color: #fbfbfb;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.formulario input {
+  display: block;
+  padding: 5px;
+  background-color: #746fd0;
+  border: none;
+  border-radius: 5px;
+}
+.formulario textarea {
+  display: block;
+  padding: 5px;
+  background-color: #746fd0;
+  border: none;
+  border-radius: 5px;
+}
+
+.copy {
+  background: #c6ffc1;
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.copy img {
+  max-width: 50px;
+  margin: 30px 20px 20px 60px;
+  padding-left: 90px;
+}
+.copy ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.copy ul li a {
+  text-decoration: none;
+  color: #030044;
+}
+.copy ul li a:hover {
+  text-decoration: none;
+  color: #746fd0;
+}
+
+/*RESPONSIVO*/
